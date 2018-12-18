@@ -1,0 +1,164 @@
+/* Universal Styles */
+h2{
+  margin: 0 0 6rem 0;
+  font-size: 3rem;
+}
+
+
+/* Navigation section */
+
+
+header nav ul{
+  display: flex;
+  list-style-type: none;
+  height: 5rem;
+  align-items: center;
+}
+
+header a{
+  color: inherit;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background-color: #90EE90;
+  margin-left: -1.48rem;
+  z-index: 2;
+}
+
+nav li{
+  margin: 0.6rem 4rem 0 0;
+  font-size: 2rem;
+}
+
+nav li a:hover{
+  color: #FFF;
+}
+
+
+
+/* Welcome section */
+
+
+.welcome{
+  margin: 0 -1.5rem;
+  background-color: #33CCFF;
+  color: #FFF;
+}
+
+.welcome p{
+  color: #CC00FF;
+  font-size: 1.7rem;
+}
+
+#welcome-section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* Projects section */
+
+#projects{
+  text-align: center;
+  padding: 5rem 0 0 0;
+}
+
+
+.first-row,
+  .second-row{
+    display: flex;
+    justify-content: space-around;
+  }
+
+.first-row{
+  margin: 6rem 0 8rem 0;
+}
+
+.second-row{
+  margin: 0 0 7rem 0;
+}
+
+.project-tile{
+  border: 1px solid #000;
+  width: 38rem;
+}
+
+.project-tile img{
+  width: 25rem;
+  height: 25rem;
+}
+
+.second-row .project-tile img{
+  height: 16rem;
+  width: 30rem;
+}
+
+@media only screen and (max-width: 991px){
+  .container{
+    width: 740px;
+  }
+
+  .project-tile{
+    width: 30rem;
+  }
+
+  .second-row .project-tile img{
+    height: 12rem;
+    width: 25rem;
+  }
+}
+
+/* Contact */
+
+.contact{
+  background-image: url("../images/beach.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 -1.5rem;
+}
+
+#contact{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.options{
+  display: flex;
+  justify-content: space-around;
+}
+
+.details a{
+  color: inherit;
+}
+
+.details{
+  border-radius: 50%;
+  background-color: #FFF;
+  font-size: 1.7rem;
+  padding: 3rem 2.5rem;
+  margin: 0 auto;
+}
+
+.details:hover{
+  background-color: #FF9900;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.details.email{
+  padding: 3rem 1.5rem;
+}
+
+#contact img{
+  width: 15rem;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 0 5rem 0;
+}
